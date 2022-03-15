@@ -13,6 +13,19 @@ export default {
   name: 'Home',
   components: {
     HelloWorld
+  },
+  data:() => ({
+    stockDados: [],
+    dolarBalance: 0,
+    update: 0,
+    claims: {},
+    authenticated: false
+  }),
+  methods:{
+    
+  },
+  created(){
+
   }
 }
 </script>
